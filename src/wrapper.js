@@ -1,11 +1,13 @@
 // Importa o componente
-import component from './chat-component.vue';
+import ChatComponent from './chat-component.vue';
+import WindowComponent from './chat-component-2.vue';
+
 
 // Declara a função de instalação executada pelo Vue.use()
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('MyComponent', component);
+  Vue.component('ChatComponentVue', ChatComponent);
 }
 
 // Cria a definição do módulo para Vue.use()
@@ -25,4 +27,5 @@ if (GlobalVue) {
 }
 
 // Para permitir o uso como um módulo exportável (npm/webpack/etc.)
-export default component;
+export { ChatComponent, WindowComponent };
+export default ChatComponent;
