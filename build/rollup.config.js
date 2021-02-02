@@ -4,7 +4,7 @@ import buble from 'rollup-plugin-buble'; // Transpila com considerável suporte 
 export default {
   input: 'src/wrapper.js', // Caminho relativo ao package.json
   output: {
-    name: 'MyComponent',
+    name: 'ChatComponent',
     exports: 'named',
   },
   plugins: [

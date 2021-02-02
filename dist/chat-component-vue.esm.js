@@ -145,7 +145,7 @@ var __vue_render__ = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("q-card", [_vm._v("\n    Hello\n")])
+  return _c("fragment", [_vm._v("\n  Hello\n")])
 };
 var __vue_staticRenderFns__ = [];
 __vue_render__._withStripped = true;
@@ -153,7 +153,7 @@ __vue_render__._withStripped = true;
   /* style */
   var __vue_inject_styles__ = function (inject) {
     if (!inject) { return }
-    inject("data-v-18be5bc2_0", { source: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n", map: {"version":3,"sources":[],"names":[],"mappings":"","file":"chat-component.vue"}, media: undefined });
+    inject("data-v-c0feffec_0", { source: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n", map: {"version":3,"sources":[],"names":[],"mappings":"","file":"chat-component.vue"}, media: undefined });
 
   };
   /* scoped */

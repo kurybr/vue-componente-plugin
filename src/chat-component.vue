@@ -1,7 +1,7 @@
 <template>
-  <q-card>
-      Hello
-  </q-card>
+  <fragment>
+    Hello
+  </fragment>
 </template>
 
 <script>
